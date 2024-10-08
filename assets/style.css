@@ -1,0 +1,109 @@
+.circle-bg {
+    width: 142px;
+    height: 142px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    background-color: #E8E8E8; 
+}
+
+.circle-bg img {
+    width: 60px; 
+    height: 60px; 
+}
+
+
+
+.text-dangers{
+color: #FF0000;
+font-size: smaller;
+}
+
+
+
+
+
+
+  @media (max-width: 576px) {
+      .font-size-sm {
+          font-size: 0.70rem;
+          /* Smaller font size for small screens */
+      }
+
+      .bg-sm-secondary {
+          background-color: #6C757D;
+          /* Default background color for small screens */
+      }
+  }
+
+
+  .tab-content {
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.nav-pills .nav-item .nav-link.active {
+    background-color: #00599b;
+    color: white;
+}
+
+.nav-pills .nav-link {
+    background-color: #d9d9d9;
+    color: black;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+}
+
+
+
+
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: relative;
+}
+
+
+
+.carousel-control-prev-icon {
+    background-color: #1e2421;
+    opacity: 1;
+}
+
+.carousel-control-next-icon {
+    background-color: #01ad4e;
+    opacity: 1;
+}
+
+.carousel-control-prev-icon div,
+.carousel-control-next-icon div {
+    width: 23px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 14px;
+}
+
+.carousel-control-prev-icon div {
+    margin-left: 10px;
+}
+
+.carousel-control-next-icon div {
+    margin-right: 10px;
+}
+
+button.btn:hover {
+    color: #ffffff !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
