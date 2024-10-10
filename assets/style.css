@@ -39,28 +39,28 @@ font-size: smaller;
   }
 
 
-  .tab-content {
+  .Success-History   .tab-content {
     background-color: #ffffff;
     padding: 5px;
 }
 
-.nav-pills .nav-link {
+.Success-History  .nav-pills .nav-link {
     border-radius: 0;
 }
 
-.nav-pills .nav-item .nav-link.active {
+.Success-History  .nav-pills .nav-item .nav-link.active {
     background-color: #00599b;
     color: white;
 }
 
-.nav-pills .nav-link {
+.Success-History  .nav-pills .nav-link {
     background-color: #d9d9d9;
     color: black;
 }
 
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.Success-History .carousel-control-prev-icon,
+.Success-History .carousel-control-next-icon {
     background-color: #000;
 }
 
@@ -69,40 +69,40 @@ font-size: smaller;
 
 
 
-.carousel-control-next,
-.carousel-control-prev {
+.Success-History .carousel-control-next,
+.Success-History .carousel-control-prev {
     position: relative;
 }
 
 
 
-.carousel-control-prev-icon {
+.Success-History .carousel-control-prev-icon {
     background-color: #1e2421;
     opacity: 1;
 }
 
-.carousel-control-next-icon {
+.Success-History .carousel-control-next-icon {
     background-color: #01ad4e;
     opacity: 1;
 }
 
-.carousel-control-prev-icon div,
-.carousel-control-next-icon div {
+.Success-History .carousel-control-prev-icon div,
+.Success-History .carousel-control-next-icon div {
     width: 23px;
     height: 3px;
     background-color: #ffffff;
     margin-top: 14px;
 }
 
-.carousel-control-prev-icon div {
+.Success-History .carousel-control-prev-icon div {
     margin-left: 10px;
 }
 
-.carousel-control-next-icon div {
+.Success-History .carousel-control-next-icon div {
     margin-right: 10px;
 }
 
-button.btn:hover {
+.Success-History button.btn:hover {
     color: #ffffff !important;
     background-color: #ffffff !important;
     border-color: #ffffff !important;
