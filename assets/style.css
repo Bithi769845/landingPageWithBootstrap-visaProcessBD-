@@ -36,6 +36,7 @@ font-size: smaller;
           background-color: #6C757D;
           /* Default background color for small screens */
       }
+
   }
 
 
@@ -107,3 +108,103 @@ font-size: smaller;
     background-color: #ffffff !important;
     border-color: #ffffff !important;
 }
+
+
+        /* Styling for proper alignment */
+        .FAQ-Section .accordion-button {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .FAQ-Section .accordion-button i {
+            /* To ensure the icon is aligned to the left */
+            font-size: 1.25rem;
+        }
+
+        .FAQ-Section .accordion-button::after{
+            width: 0px;
+            background-image: none;
+        }
+
+        .ourTeam   .carousel-control-next,
+     .ourTeam   .carousel-control-prev {
+            position: relative;
+        }
+
+        .ourTeam   .carousel-control-prev-icon,
+        .ourTeam   .carousel-control-next-icon {
+            filter: invert(50%);
+        }
+
+       .ourTeam .card {
+            border: none; /* Remove card border */
+        }
+
+
+
+        .Footer-Section {
+            border-bottom: 2px dashed #fff;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        .Footer-Section .desclaimer {
+            border-right: 2px dashed #fff;
+        }
+
+/* Mobile Styles */
+@media (max-width: 576px) {
+    .Footer-Section .desclaimer {
+        border-right: none; 
+    }
+    .footer-icons img {
+        width: 40px; 
+        height: auto; 
+    }
+    .footer-icons2 img {
+        width: 180px;
+        height: auto; 
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 577px) and (max-width: 768px) {
+    .Footer-Section .desclaimer {
+        border-right: none; 
+        margin-bottom: 1rem; 
+    }
+
+    .Footer-Section {
+        padding-bottom: 1rem;
+    }
+
+    .footer-icons img {
+        width: 45px; 
+        height: auto; 
+    }
+
+    .footer-icons2 img {
+        width: 160px; 
+        height: auto; 
+    }
+
+    .footersecondsection .col-lg-4 {
+        margin-bottom: 2rem; 
+    }
+
+    .footersecondsection h5 {
+        font-size: 1.25rem; 
+    }
+
+    .footersecondsection p.small {
+        font-size: 0.9rem; 
+    }
+}
+
+
+        
+        
+        
+        
+       

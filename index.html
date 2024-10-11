@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Bootstrap Example</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css">
+
+    <!-- Font Awesome (optional, for icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    
 
     <link rel="stylesheet" href="assets\style.css">
 </head>
@@ -158,7 +170,7 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets\images\baner.jpeg" class="d-block w-100" height="480" alt="...">
+                <img src="assets\images\Banner 1.png" class="d-block w-100" height="480" alt="...">
             </div>
             <div class="carousel-item ">
                 <img src="assets\images\baner-12.png" class="d-block w-100" height="480" alt="...">
@@ -375,38 +387,39 @@
     </div>
 
 <!-- Provide service section -->
-    <div class="card text-bg-dark">
-        <img src="assets/images/canada-air-library.jpeg" alt="Air Ticketing" height="350">
+    <div class="card text-bg-dark ">
+        <img src="assets/images/canada-air-library.jpeg"  alt="Air Ticketing" height="550">
 
-        <div class="container">
+        <div class="container ">
             <div class="card-img-overlay d-flex flex-column justify-content-center bg-dark bg-opacity-50">
-                <div class="text-center mb-5">
-                    <h1 class="card-text text-white">We Provide Service For These Countries</h1>
+                <div class="text-center ">
+                    <h1 class="card-text text-white mt-4 mb-3">We Provide Service For These
+                         Countries</h1>
                 </div>
 
-                <div class="row text-center text-uppercase d-flex  justify-content-center">
+                <div class="row text-center text-uppercase d-flex  justify-content-center mb-5">
                     <!-- Column 1 -->
-                    <div class="col-2">
+                    <div class="col-6 col-lg-2 col-md-2">
                         <img src="assets/images/CANADA.png" alt="Canada" class="img-fluid mb-2">
-                        <p class="card-text text-white">CANADA</p>
+                        <p class="card-text text-white ">CANADA</p>
                     </div>
                     <!-- Column 2 -->
-                    <div class="col-2">
+                    <div class="col-6 col-lg-2 col-md-2">
                         <img src="assets\images\USA.png" alt="Canada" class="img-fluid mb-2">
                         <p class="card-text text-white">America</p>
                     </div>
                     <!-- Column 3 -->
-                    <div class="col-2">
+                    <div class="col-6 col-lg-2 col-md-2">
                         <img src="assets\images\London.png" alt="Canada" class="img-fluid mb-2">
                         <p class="card-text text-white">London</p>
                     </div>
                     <!-- Column 4 -->
-                    <div class="col-2">
+                    <div class="col-6 col-lg-2 col-md-2">
                         <img src="assets\images\Australia.png" alt="Canada" class="img-fluid mb-2">
                         <p class="card-text text-white">Australia</p>
                     </div>
                     <!-- Column 5 -->
-                    <div class="col-2">
+                    <div class="col-6 col-lg-2 col-md-2">
                         <img src="assets\images\NewZealand.png" alt="Canada" class="img-fluid mb-2">
                         <p class="card-text text-white">New Zealand</p>
                     </div>
@@ -1229,8 +1242,325 @@
     </div>      
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-</body>
+<!-- FAQ and Team Section -->
+<div class="container FAQTeam mt-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <!-- FAQ Section -->
+            <div class="container mt-5 FAQ-Section">
+                <h2>People Also <span style="color: #00599b;">Asked</span></h2>
+                <div class="accordion" id="faqAccordion1">
 
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item mt-5 border border-1 rounded-1 shadow">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <div class="col-10">Q. best Canada immigration consultants in Bangladesh?</div>
+                                <div class="col-2"><i class="fas fa-plus d-flex justify-content-end"></i></div>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion1">
+                            <div class="accordion-body ">
+                                <hr>
+                                The Aptech Visa is one the best and premier Canada immigration consultancies in Bangladesh, 
+                                Aptech visa is well recognized for its complete guidance and support for PR visas, Family visas, 
+                                and visitor visa processes for Canada, The agency specialises in multiple visa categories 
+                                such as PR and student visas.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item mt-3 border border-1 rounded-1 shadow">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="col-10">Q: Which Visa consultancy is best in Dhaka?</div>
+                                <div class="col-2 d-flex justify-content-end"><i class="fas fa-plus"></i></div>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion1">
+                            <div class="accordion-body">
+                                <hr>
+                                The Aptech Visa is one the best and premier Canada immigration consultancies in Bangladesh, 
+                                Aptech visa is well recognized for its complete guidance and support for PR visas, Family visas, 
+                                and visitor visa processes for Canada, The agency specialises in multiple visa categories 
+                                such as PR and student visas.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item mt-3 border border-1 rounded-1 shadow">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="col-10">Q: How do I select the best visa consultancy?</div>
+                                <div class="col-2 d-flex justify-content-end"><i class="fas fa-plus"></i></div>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion1">
+                            <div class="accordion-body">
+                                <hr>
+                                The Aptech Visa is one the best and premier Canada immigration consultancies in Bangladesh, 
+                                Aptech visa is well recognized for its complete guidance and support for PR visas, Family visas, 
+                                and visitor visa processes for Canada, The agency specialises in multiple visa categories 
+                                such as PR and student visas.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 (updated) -->
+                    <div class="accordion-item mt-3 border border-1 rounded-1 shadow">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <div class="col-10">Q: What services are provided by Visa consultancy?</div>
+                                <div class="col-2 d-flex justify-content-end"><i class="fas fa-plus"></i></div>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion1">
+                            <div class="accordion-body">
+                                <hr>
+                                The Aptech Visa is one the best and premier Canada immigration consultancies in Bangladesh, 
+                                Aptech visa is well recognized for its complete guidance and support for PR visas, Family visas, 
+                                and visitor visa processes for Canada, The agency specialises in multiple visa categories 
+                                such as PR and student visas.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+<!-- Our Team Section -->
+<div id="carouselExampleFade5" class="carousel  slide carousel-fade mt-5 ourTeam" data-bs-interval="2000">
+    <div class="container shadow">
+        <div class="row p-4 " style="background-color: #00599b;">
+            <div class="col-12 text-light">
+                <h2 class="text-center mt-3">Our Team</h2>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active ">
+                        <div class="row ">
+                            <div class="col-12">
+                                <div class="card  text-center text-light" style="background-color: #00599b;">
+                                    <div class="card-body mt-4">
+                                        <img src="assets\images\team.jpeg" class="rounded-circle" style="width: 204px; height: 220px;" alt="Image 1">
+                                        <h6 class="card-title mt-3">JAHIRUL ISLAM</h6>
+                                        <p class="card-text">Chairman</p>
+                                        <div>
+                                            <a href="#" class="text-dark"><i class="fab fa-whatsapp bg-light rounded-circle p-2"></i></a>
+                                            <a href="#" class="text-dark"><i class="fa-brands fa-facebook bg-light rounded-circle p-2"></i></a>
+                                            <a href="#" class="text-dark"><i class="fa-brands fa-twitter fa-x-twitter bg-light rounded-circle p-2"></i></a>
+                                            <a href="#" class="text-dark"><i class=" fa-brands fa-linkedin bg-light rounded-circle p-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card shadow text-center text-light" style="background-color: #00599b;">
+                                    <div class="card-body mt-4">
+                                        <img src="assets\images\team.jpeg" class="rounded-circle" style="width: 204px; height: 220px;" alt="Image 2">
+                                        <h6 class="card-title mt-3">Mahin Chowdury</h6>
+                                        <p class="card-text">Vice Chairman</p>
+                                        <div>
+                                            <a href="#" class="text-dark"><i class="fab fa-whatsapp bg-light rounded-circle p-2"></i></a>
+                                            <a href="#" class="text-dark"><i class="fa-brands fa-facebook bg-light rounded-circle p-2"></i></a>
+                                            <a href="#" class="text-dark"><i class="fa-brands fa-twitter fa-x-twitter bg-light rounded-circle p-2"></i></a>
+                                            <a href="#" class="text-dark"><i class=" fa-brands fa-linkedin bg-light rounded-circle p-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card shadow text-center text-light" style="background-color: #00599b;">
+                                    <div class="card-body mt-4">
+                                        <img src="assets\images\team.jpeg" class="rounded-circle" style="width: 204px; height: 220px;" alt="Image 3">
+                                        <h6 class="card-title mt-3">Mukter Mia</h6>
+                                        <p class="card-text">CEO</p>
+                                        <div>
+                                            <a href="#" class="text-dark"><i class="fab fa-whatsapp bg-light rounded-circle p-2"></i></a>
+                                            <a href="#" class="text-dark"><i class="fa-brands fa-facebook bg-light rounded-circle p-2"></i></a>
+                                            <a href="#" class="text-dark"><i class="fa-brands fa-twitter fa-x-twitter bg-light rounded-circle p-2"></i></a>
+                                            <a href="#" class="text-dark"><i class=" fa-brands fa-linkedin bg-light rounded-circle p-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center pb-3 gap-5 mt-3">
+                <div class="container d-flex justify-content-center">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade5" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <span>
+                        <hr class="border border-1" style="width: 300px; background: #e0dfdf;">
+                    </span>
+                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleFade5" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+
+<div class="container AuthorizedMap mt-5">
+    <div class="row ">
+        <div class="col-12 col-lg-6">
+           <h2>Authorized <span style="color: #00599b;">Representative</span></h2>
+           <img src="assets\images\authorized.png" width="100%" height="162px">
+        </div>
+        <div class="col-12 col-lg-6">
+           <h2>Google <span style="color: #00599b;">Map</span></h2>
+           <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.493559951891!2d-122.4014336846811!3d37.79461327975837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808b6c855e59%3A0x7b5c9ae6d83b20c3!2sGoogle%20Building%20243!5e0!3m2!1sen!2sus!4v1628041810122!5m2!1sen!2sus"
+              width="100%"
+              height="200px"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="Footer-Section container-fluid text-white pt-2 mt-5" style="background-color: #00599b;">
+    <div class="container mt-5">
+        <!-- Disclaimer and Links Section -->
+        <div class="row">
+            <div class="col-12 col-lg-4 mb-4 desclaimer pe-4">
+                <img src="assets/images/VisaLogo.png" width="251" height="64" alt="Visa Logo">
+                <h6 class="mt-3 text-uppercase fw-bold">Disclaimer</h6>
+                <p class="small">
+                    Due to the periodic changes of information/requirements/documentation, VISA PROCESS BD doesn’t provide any confirmation, guarantee, or representation, express or implied, that the information contained or referenced herein is completely accurate or final. VISA PROCESS BD also doesn’t assure the grant of visa for its ‘Visa logistics support’. Visa grant is the distinct decision of the embassy or consulate of the respective countries.
+                </p>
+            </div>
+            <div class="col-lg-8 mb-4 mt-3 px-5">
+                <div class="row">
+                    <div class="col-6 col-lg-4 col-md-4">
+                        <h6 class="text-uppercase fw-bold">Company</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white text-decoration-none small">About VISA PROCESS BD</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">Career</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">News</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">Media Library</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">Business Network</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-4">
+                        <h6 class="text-uppercase fw-bold">Information</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white text-decoration-none small">Find VISA Requirements</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">Embassies and Consulates</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">Explore Countries</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">Explore Visa Fees</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-4">
+                        <h6 class="text-uppercase fw-bold">Services</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white text-decoration-none small">Visa Processing In Bangladesh</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">E-Visa Processing</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">Visa Processing In India</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">Document Legalization</a></li>
+                            <li><a href="#" class="text-white text-decoration-none small">Visa Consultancy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footersecondsection container-fluid text-white py-5" style="background-color: #00599b;">
+    <div class="container">
+        <!-- Contact Information Section -->
+        <div class="row">
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <h5 class="text-uppercase fw-bold">Company</h5>
+                <p class="small">
+                    <strong>Bangladesh:</strong>
+                    <span class="ms-1">+88 018 55 77 88 78</span><br>
+                    <span class="d-flex justify-content-center">+88 016 15 00 88 78</span>
+                </p>
+                <p class="small">
+                    <strong>Canada:</strong>
+                    <span class="ms-1">+1 437-733-0878</span>
+                </p>
+                <p class="small">
+                    <strong>Email:</strong>
+                    <span class="ms-2">visaprocessbd2017@gmail.com</span>
+                </p>
+                <p class="small">
+                    <strong>WEB:</strong>
+                    <span class="ms-2">
+                        <a href="http://www.visaprocessbd.com" target="_blank" class="text-white">www.visaprocessbd.com</a><br>
+                        <a href="http://www.visaprocess.com.bd" target="_blank" class="text-white ms-5">www.visaprocess.com.bd</a>
+                    </span>
+                </p>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <h5 class="text-uppercase fw-bold">Address</h5>
+                <p class="small"><strong>Bangladesh Office:</strong><br>1/A, Fakirapool, Alauddin Bhaban (Ground Floor),<br>Motijheel, Dhaka- 1000, Bangladesh.</p>
+                <p class="small"><strong>Canada Office:</strong><br>3000 Danforth Avenue, East York,<br>Toronto, Ontario, M4C 1M7, Canada.</p>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <h5 class="text-uppercase fw-bold">We Accept</h5>
+                <div class="d-flex flex-wrap gap-4 footer-icons bg-light p-2 rounded-1">
+                    <a href="#"><img src="assets/images/bkash.png" width="45" height="20" alt="Bkash"></a>
+                    <a href="#"><img src="assets/images/nogod.png" width="45" height="20" alt="Nogod"></a>
+                    <a href="#"><img src="assets/images/mastercard.png" width="45" height="20" alt="Mastercard"></a>
+                    <a href="#"><img src="assets/images/visa.png" width="45" height="20" alt="Visa"></a>
+                    <a href="#"><img src="assets/images/paypal.png" width="45" height="20" alt="Paypal"></a>
+                </div>
+                <div class="mt-3 d-flex footer-icons2 bg-light p-2 rounded-1">
+                    <a href="#"><img src="assets/images/right.jpeg" width="140" height="39" alt="Social Media Icons"></a>
+                    <a href="#"><img src="assets/images/leftsocialicon.png" width="140" height="39" alt="Social Media Icons"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Copyright Section -->
+
+    <div class="text-center mt-3" style="background-color: #FFFFFF; color:#4b4b4b;">
+        <h6 class="small">Visa Process BD © 2024 Designed by MS Bithi. All Rights Reserved</h6>
+    </div>
+
+
+
+
+
+
+
+
+ <script src="assets\js\script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
